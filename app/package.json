@@ -1,0 +1,25 @@
+{
+  "name": "jasper-personal-sprint",
+  "version": "1.0.0",
+  "description": "learning grunt ",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jasper",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-config": "^0.19.2",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "dependencies": {
+    "load-grunt-config": "^0.19.2"
+  }
+}
