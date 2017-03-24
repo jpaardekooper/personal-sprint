@@ -4,7 +4,7 @@ module.exports = {
 		cache: false
 	},
 
-    dist: {
+	dist: {
 		files: [{
 			expand: true,                // Enable dynamic expansion
 			cwd: 'src/',              // src matches are relative to this path

@@ -1,6 +1,4 @@
 module.exports = {
-	first: ['newer:connect'],
-	second: ['newer:uglify', 'newer:imagemin'],
-	third: ['newer:watch'],
-	fourth: ['newer:concat'],
+	first: ['newer:concat'],
+	second: ['newer:uglify', 'newer:imagemin', 'newer:watch', 'newer:connect', 'newer:jshint']
 };
