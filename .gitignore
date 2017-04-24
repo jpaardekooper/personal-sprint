@@ -1,3 +1,7 @@
-node_modules/
-
-.idea/
+/.idea/
+/node_modules/
+/.sass-cache/
+/build/
+/app/resources/assets/javascript/base.js
+/app/resources/assets/css/
+!/build/index.html

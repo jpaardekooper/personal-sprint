@@ -1,0 +1,27 @@
+.portfolio {
+	box-sizing: border-box;
+	padding: 20px 0;
+
+	.heading {
+		width: 50px;
+		display: block;
+		margin: 0 auto;
+		padding: 10px 20%;
+		background-color: $grey;
+	}
+
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+
+	&__item {
+		display: block;
+		align-self: center;
+		margin: 1rem;
+		width: calc(100% / 3 - 2rem);
+		max-width: 100%;
+		height: auto;
+	}
+}

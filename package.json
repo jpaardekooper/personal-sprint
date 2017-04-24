@@ -1,13 +1,33 @@
 {
-  "name": "personal-sprint-grunt",
-  "version": "0.1.0",
+  "name": "gulp-flexbox",
+  "version": "1.0.0",
+  "description": "Personal sprint to tackle gulp and flexbox.",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
   "devDependencies": {
-    "grunt": "~0.4.4",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-uglify": "latest",
-    "jshint-stylish": "latest",
-    "grunt-contrib-less": "latest",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-watch": "latest"
-  }
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-connect": "^5.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "require-dir": "^0.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelvrolijk/personal-sprints.git"
+  },
+  "author": "Michael Vrolijk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelvrolijk/personal-sprints/issues"
+  },
+  "homepage": "https://github.com/michaelvrolijk/personal-sprints#readme"
 }

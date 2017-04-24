@@ -1,1 +1,1 @@
-# personal-sprint
+# personal-sprints

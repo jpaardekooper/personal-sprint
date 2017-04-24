@@ -1,0 +1,13 @@
+.navigation {
+	height: 80px;
+	background-color: $silver;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+
+	span {
+		width: 100%;
+		text-align: center;
+		@extend .heading;
+	}
+}

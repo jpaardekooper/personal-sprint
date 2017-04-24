@@ -1,0 +1,27 @@
+.about {
+	display: flex;
+	padding: 20px 0;
+
+	.heading {
+		width: 50px;
+		display: block;
+		margin: 0 auto;
+		padding: 10px 20%;
+		background-color: $grey;
+	}
+
+	&__image {
+		display: inline-block;
+		max-width: 50%;
+		height: auto;
+		align-self: center;
+		margin: 20px;
+	}
+
+	&__description {
+		margin: 20px;
+		box-sizing: border-box;
+		width: 50%;
+		display: inline-block;
+	}
+}

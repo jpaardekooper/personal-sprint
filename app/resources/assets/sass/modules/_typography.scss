@@ -1,0 +1,16 @@
+.heading {
+	@include font(normal, 20px, $black, normal, 1);
+
+	&--large {
+		@include font(normal, 24px, $black, normal, 1);
+	}
+
+	&--medium {
+		@include font(normal, 22px, $black, normal, 1);
+	}
+
+	&--small {
+		@include font(normal, 18px, $red, normal, 1);
+	}
+
+}

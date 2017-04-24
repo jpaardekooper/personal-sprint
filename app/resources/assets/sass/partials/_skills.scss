@@ -1,0 +1,28 @@
+.skills {
+	box-sizing: border-box;
+	padding: 20px 0;
+
+	.heading {
+		width: 50px;
+		display: block;
+		padding: 10px 20%;
+		background-color: $grey;
+	}
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+	}
+
+	&__icon {
+		max-width: 170px;
+		height: auto;
+		margin: 20px;
+		flex-shrink: 0;
+		box-sizing: border-box;
+		align-self: center;
+	}
+
+}
